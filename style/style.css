@@ -1,0 +1,149 @@
+* {
+  margin: 0px;
+  font-family: "Lato", sans-serif;
+}
+/* Header part CSS */
+
+#coverimg {
+  width: 450px;
+  padding-right: 120px;
+}
+.coverhead {
+  color: #272727;
+  font-size: 48px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+.coverdescription {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.btn-primary {
+  border: none;
+  border-radius: 8px;
+  background: #e55473;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 15px 35px;
+}
+.cover {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.coverinfo {
+  padding: 10%;
+}
+
+header {
+  background-color: rgba(229, 84, 115, 0.1);
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1% 8%;
+}
+
+.navtitle {
+  font-size: 38px;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.text-nav {
+  color: #e55473;
+}
+
+.navoption {
+  display: flex;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  margin-right: 40px;
+  align-items: center;
+}
+
+nav li {
+  font-size: 20px;
+  color: black;
+  font-weight: 500;
+  margin-right: 35px;
+  cursor: pointer;
+}
+
+.btn-login {
+  border: none;
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.1);
+  color: black;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 10px 30px;
+}
+.btn-login:hover {
+  background-color: #e55473;
+  cursor: pointer;
+}
+ul a {
+  text-decoration: none;
+}
+
+/* Feature CSS */
+.feature-container {
+  margin-top: 80px;
+  text-align: center;
+}
+.featuretitle {
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+.box-feature {
+  width: 300px;
+  height: 450px;
+  padding: 20px;
+}
+.img-feature {
+  position: relative;
+  width: 300px;
+  height: 450px;
+  border-radius: 300px 300px 0px 0px;
+  margin-bottom: 15px;
+  border: 1px solid black;
+}
+#flowername {
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
+  color: #272727;
+}
+.box-container {
+  display: flex;
+  justify-content: space-between;
+  width: 78%;
+  margin: auto;
+}
+.box1-bg {
+  background: rgba(167, 33, 98, 0.15);
+}
+.box2-bg {
+  background: rgba(5, 151, 160, 0.15);
+}
+.box3-bg {
+  background: rgba(71, 125, 17, 0.15);
+}
+#imgbox {
+  position: absolute; /* Position the image absolutely within the container */
+  bottom: 0; /* Position the image at the bottom */
+  width: 100%; /* Make the image width fill the container */
+  height: auto; /* Preserve the aspect ratio of the image */
+}
