@@ -107,18 +107,28 @@ ul a {
   font-weight: 800;
   margin-bottom: 20px;
 }
+
+.box-container {
+  display: flex;
+  justify-content: space-between;
+  width: 78%;
+  margin: auto;
+  margin-bottom: 20px;
+}
 .box-feature {
   width: 300px;
-  height: 450px;
+  height: 460px;
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 .img-feature {
-  position: relative;
   width: 300px;
-  height: 450px;
+  height: 400px;
   border-radius: 300px 300px 0px 0px;
-  margin-bottom: 15px;
-  border: 1px solid black;
+
+  padding-top: 20px;
 }
 #flowername {
   color: black;
@@ -126,11 +136,8 @@ ul a {
   font-weight: 600;
   color: #272727;
 }
-.box-container {
-  display: flex;
-  justify-content: space-between;
-  width: 78%;
-  margin: auto;
+#imgbox {
+  max-width: 265px;
 }
 .box1-bg {
   background: rgba(167, 33, 98, 0.15);
@@ -141,9 +148,114 @@ ul a {
 .box3-bg {
   background: rgba(71, 125, 17, 0.15);
 }
-#imgbox {
-  position: absolute; /* Position the image absolutely within the container */
-  bottom: 0; /* Position the image at the bottom */
-  width: 100%; /* Make the image width fill the container */
-  height: auto; /* Preserve the aspect ratio of the image */
+
+.support-container {
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  color: rgba(39, 39, 39, 0.8);
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  width: 80%;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 120px;
+  height: 250px;
+  align-items: center;
+  
+}
+
+.hotdealcontainer {
+  background-color: rgba(229, 84, 115, 0.1);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 550px;
+  text-align: center;
+  padding: 0% 13%;
+}
+
+.ins-container {
+  text-align: center;
+  width: 70%;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.ins-boxcontainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+  gap: 15px;
+}
+.subs-container {
+  background-image: url("../Asset/Rectangle9.png");
+  background-size: 100%;
+  width: 80%;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  margin: auto;
+  height: 500px;
+  text-align: center;
+}
+.subs-info {
+  padding-top: 50px;
+}
+.inputfield {
+  width: 60%;
+  height: 58px;
+  border: none;
+  border-radius: 10px;
+  margin-right: 10px;
+  font-size: 20px;
+  padding-left: 10px;
+}
+.btn-submscribe {
+  border: none;
+  font-size: 28px;
+  padding: 12px 30px;
+  border-radius: 10px;
+  background-color: #e55473;
+  color: white;
+}
+.btn-submscribe:hover {
+  background-color: darkred;
+  cursor: pointer;
+}
+.footerinfo {
+  color: rgba(255, 255, 255, 0.4);
+  text-align: center;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 50px;
+}
+footer {
+  background: #111010;
+  height: 350px;
+  text-align: center;
+  padding-top: 10%;
+}
+.footertitle {
+  font-size: 38px;
+  font-weight: 800;
+  cursor: pointer;
+  color: #e55473;
+  margin-bottom: 30px;
+}
+.footertext{
+  color: white;
+}
+.footerdescription{
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 30px;
 }
